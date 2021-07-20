@@ -9,6 +9,7 @@ void main() => runApp(
         debugShowCheckedModeBanner: false,
         // home: MyApp(),
         // ! a map. it expects key valued pairs.
+        // ? using this method we cannot pass dynamic data into the app
         routes: {
           '/': (context) => Home(),
           '/chats': (context) => Chats(),
